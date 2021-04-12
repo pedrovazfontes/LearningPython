@@ -1,0 +1,41 @@
+"""
+
+Desafios - Curso em Video
+
+"""
+
+#Desafio 1
+
+"""
+Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo como valor
+digitado
+"""
+
+name = input("Digite seu nome: ")
+print(f"Olá {name}, seja bem-vindo")
+
+#Desafio 2
+
+"""
+Crie um script Python que leia o dia, mes e o ano de nascimento de uma pessoa e mostra uma mensagem
+com a data formatada
+"""
+
+day = int(input("Digite a data do seu aniversário: "))
+month = int(input("Digite o mês do seu aniversário: "))
+year = int(input("Digite o ano de nascimento: "))
+
+print(f"Você nasceu no dia {day} do mês {month} do ano {year}. Correto? ")
+
+#Desafio 3
+
+"""
+Crie um script python que leia dois numeros e tente mostrar a some entre eles
+"""
+
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número "))
+
+print("A soma entre os números {} e {} é {} ".format(num1, num2, num1 + num2))
+
+#obs link para acesso https://www.youtube.com/watch?v=31llNGKWDdo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=4
